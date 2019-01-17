@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "4a792a0537768d4d716d6c8620e2fc2c83a763d5"
+    "signature": "7edaac0c05895a9874b36dec52e7443d6786be71"
   },
   "compilationOptions": {
     "defines": [
@@ -31,6 +31,7 @@
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.1.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.5",
+          "Serilog": "2.7.1",
           "Serilog.Sinks.File": "4.0.0",
           "Serilog.Sinks.MSSqlServer": "5.1.2",
           "Swashbuckle.AspNetCore": "4.0.1"
@@ -592,25 +593,15 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
-      "Serilog/2.5.0": {
+      "Serilog/2.7.1": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "System.Collections": "4.3.0",
-          "System.Collections.NonGeneric": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Text.RegularExpressions": "4.3.0",
-          "System.Threading": "4.3.0"
+          "NETStandard.Library": "2.0.3",
+          "System.Collections.NonGeneric": "4.3.0"
         },
         "runtime": {
           "lib/netstandard1.3/Serilog.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.5.0.0"
+            "fileVersion": "2.7.1.0"
           }
         },
         "compile": {
@@ -619,7 +610,7 @@
       },
       "Serilog.Sinks.File/4.0.0": {
         "dependencies": {
-          "Serilog": "2.5.0",
+          "Serilog": "2.7.1",
           "System.IO": "4.3.0",
           "System.IO.FileSystem": "4.3.0",
           "System.IO.FileSystem.Primitives": "4.3.0",
@@ -640,7 +631,7 @@
       },
       "Serilog.Sinks.MSSqlServer/5.1.2": {
         "dependencies": {
-          "Serilog": "2.5.0",
+          "Serilog": "2.7.1",
           "Serilog.Sinks.PeriodicBatching": "2.1.1",
           "System.Configuration.ConfigurationManager": "4.4.0",
           "System.Data.SqlClient": "4.5.1"
@@ -657,7 +648,7 @@
       },
       "Serilog.Sinks.PeriodicBatching/2.1.1": {
         "dependencies": {
-          "Serilog": "2.5.0",
+          "Serilog": "2.7.1",
           "System.Collections.Concurrent": "4.3.0",
           "System.Threading.Timer": "4.0.1"
         },
@@ -4049,12 +4040,12 @@
       "path": "nuget.frameworks/4.7.0",
       "hashPath": "nuget.frameworks.4.7.0.nupkg.sha512"
     },
-    "Serilog/2.5.0": {
+    "Serilog/2.7.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JwwkgNYNFKT4kQZ3qBV3VqPgchUg1A6FnlFa9hgyanylwBhJ7eTFl3pgLVxijFEb+oHLImRcMaTsMzBt2AG0aQ==",
-      "path": "serilog/2.5.0",
-      "hashPath": "serilog.2.5.0.nupkg.sha512"
+      "sha512": "sha512-5eS6AD4hesOYvlwYqjntLaOonDnEiY22QiMUKueJHPrm5vm1k4tzXgOgCb2mJoMnj6l5Wt6AXV5liXzXymvarg==",
+      "path": "serilog/2.7.1",
+      "hashPath": "serilog.2.7.1.nupkg.sha512"
     },
     "Serilog.Sinks.File/4.0.0": {
       "type": "package",
